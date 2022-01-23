@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  /* background-color: rgb(243, 243, 236); */
+  
+  margin-top: 25px;
+  font-family: var(--font2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 74px; */
+  /* background-color: red; */
+}
+
+.nav-left {
+  font-size: 25px;
+  display: flex;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 6px 78px;
+  font-size: 1.1rem;
+}
+
+.nav-left ul li {
+  list-style: none;
+  color: black;
+  margin: 0 15px;
+  font-family: var(--font1);
+  transition: all 0.4s ease-in-out;
+}
+.nav-left ul li a:hover {
+  color: white;
+  color: var(--main-bg-color);
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+.btn:hover{
+  color: white;
+}
+
+.btn a{
+   text-decoration: none;
+}
+.btn a:hover{
+   color: white;
+}
+
+.content {
+  display: flex;
+  /* color: white; */
+  height: 100%;
+  margin-top: 30px;
+  position: relative;
+  padding: 9px;
+  
+}
+
+.content::after {
+  content: "";
+  /* background-image: url('../img/dumbbell-geca450b10_1280.jpg \(4\).jpg'); */
+  position: absolute;
+  background-size: cover;
+  border-radius: 6px;
+  width: 100%;
+  height: inherit;
+  opacity: 0.5;
+}
+
+.content-left {
+  font-family: var(--font2);
+  /* width: 50%; */
+  padding: 50px;
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-right {
+  /* width: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-right img {
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 500px;
+}
+
+.home-articles {
+  /* background-color: rgb(243, 243, 236); */
+  position: relative;
+  font-family: var(--font2);
+  padding-top: 15px;
+  border-radius: 6px;
+  margin-top: 25px;
+}
+
+.home-article {
+  font-family: var(--font2);
+  display: flex;
+  margin: 15px;
+}
+.home-article img {
+  border-radius: 4px;
+  height: auto;
+  width: 300px;
+}
+.home-article-content {
+  align-self: center;
+  padding: 0px 25px;
+}
+.home-article-content a{
+ text-decoration: none;
+ color: var(--main-bg-color);
+}
+
+/* card  */
+.card{
+  transition: all 0.5s ease;
+  border-radius: 10px;
+
+}
+.card img {
+  border-radius: 10px;
+ 
+  margin: auto;
+}
+.card:hover{
+  transform:scale(1.1);
+  box-shadow: 1px 2px 1px black ;
+}
+

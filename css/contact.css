@@ -1,0 +1,39 @@
+.content1 {
+    display: flex;
+    /* color: white; */
+    height: 67vh;
+    /* margin-top: 30px; */
+    position: relative;
+    padding: 9px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .content1::after {
+    content: "";
+    /* background-image: url('../img/abs\ girl\ model.jpg'); */
+
+    position: absolute;
+    background-size: cover;
+    border-radius: 10px;
+    width: 95%;
+    height: inherit;
+    opacity: 0.8;
+    z-index: -1;
+  }
+
+  h2 {
+    color: rgb(31, 30, 30);
+  }
+
+  .contact-form #error_message{
+    margin-bottom: 0px;
+    /* padding: 10px; */
+    /* background: #fe8b8e; */
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    transition: all 0.5s ease;
+  }
+ 
+ 
