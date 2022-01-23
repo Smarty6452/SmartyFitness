@@ -20,16 +20,7 @@
   .home-article img {
     text-align: center;
   }
-  .year-box {
-    display: flex;
-    top: 25px;
-    font-size: 6px;
-    left: 56vw;
-  }
-  .year-box div {
-    padding: 0 3px;
-    margin: 0;
-  }
+  
   .home-article img {
     width: 60vw;
   }
